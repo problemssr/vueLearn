@@ -20,7 +20,11 @@
           >
         </li>
       </ul>
-      <router-view></router-view>
+      <!-- <router-view></router-view> -->
+
+      <keep-alive include="News">
+        <router-view></router-view>
+      </keep-alive>
     </div>
   </div>
 </template>
